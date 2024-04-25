@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import styles from './page.module.css';
+import styles from '../page.module.css';
 import Link from 'next/link';
 
 export default function Home() {
@@ -17,13 +17,13 @@ export default function Home() {
 
       <div className={styles.center}>
         <Image className={styles.logo} src='/hotjar_logo.jpg' width={500} height={300} alt='Next.js Logo' priority />
-        <h2>Welcome to Hotjar</h2>
+        <h2>Get started with Hotjar</h2>
         <button
           className={styles.btn}
           onClick={() => {
-            console.log('Click me Clicked');
+            console.log('Click here for more clicked');
           }}>
-          Click me
+          Click here for more
         </button>
       </div>
     </main>
